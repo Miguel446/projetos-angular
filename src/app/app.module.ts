@@ -8,6 +8,7 @@ import { CalculadoraModule } from './calculadora';
 import { ConversorModule } from './conversor';
 import { HttpClientModule } from '@angular/common/http';
 import { TarefasModule } from './tarefas';
+import { JogoDaVelhaModule } from './jogo-da-velha';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { TarefasModule } from './tarefas';
     CalculadoraModule,
     ConversorModule,
     TarefasModule,
+    JogoDaVelhaModule,
     AppRoutingModule
   ],
   providers: [],
